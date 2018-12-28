@@ -43,6 +43,7 @@ p {
 }
 .profilePic {
     margin: 0 1em 1em 0;
+    border-radius: 10%;
 }
 .fixed {
     text-align: center;
@@ -171,7 +172,12 @@ button {
         width: 100%;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+    .jumbotron {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 640px) {
     .jumbotron {
         width: 100%;
     }
