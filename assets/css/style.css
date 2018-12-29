@@ -182,4 +182,10 @@ button {
         width: 100%;
     }
 }
+@media screen and (max-width: 450px) {
+    .jumbotron {
+        width: 100%;
+    }
+}
+
 
