@@ -198,7 +198,7 @@ button {
 
 /* Portfolio responsive look for mobile*/
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 500px) {
     #portfolio-jumbotron {
         width: 116%;
         margin-left: -33px;
@@ -210,7 +210,7 @@ button {
 
 /* Contact responsive look for mobile*/
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 500px) {
     #contact-jumbotron {
         width: 100%;
         margin-left: 1px;
