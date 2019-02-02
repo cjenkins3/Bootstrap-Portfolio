@@ -45,6 +45,9 @@ p {
     margin: 0 1em 1em 0;
     border-radius: 10%;
 }
+input {
+    color: black;
+}
 .fixed {
     text-align: center;
     background-color: #666666;
@@ -90,7 +93,7 @@ p {
     padding-right: 3.3em;
     transform: translate(-50%, -50%);
 }
-/*Example*/
+/*Finesse Your Life*/
 .card-title-3 {
     white-space: nowrap;
     text-align: center;
