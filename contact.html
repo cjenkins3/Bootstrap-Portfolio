@@ -10,7 +10,10 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
-
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -25,7 +28,7 @@
             
             
     <div class="jumbotron" id="contact-jumbotron" style= "border-radius: 20px; background-color: white;">
-        <article>
+        <form action ="https://mailthis.to/chasejenkins2009@gmail.com" method="POST">
 
             <h1 class="display-5">Contact Me</h1>
                 <hr class="my-4">
@@ -34,22 +37,24 @@
 
                 <!--contact me submission-->
                 <p>Name</p>
-                <input type="text" name="name" value="" placeholder="Your full name" required>
+                <input type="text" id="name" name="name" value="" placeholder="Your full name" required>
                 <p>Email</p>
-                <input type="text" name="email" value="" placeholder="Your email address" required>
+                <input type="text" id="email" name="email" value="" placeholder="Your email address" required>
                 <p>Message</p>
-                <textarea> </textarea>
+                <textarea type="text" id="text" name="message" value="send"> </textarea>
 
             <br>
-            <button type="button">Submit</button>
+            <button type="button" id="myForm">Submit</button>
             </div>
     
-        </article>
+        </form>
 
     </div>
     
     <footer class="fixed" style="position: fixed;">
     <p style="line-height: 50px; color: white;">&copy;2019 Chase Jenkins</p>
+
+<script src="assets/js/contact.js"></script>
 </footer>
 </body>
 </html>
